@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="arquivos/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="arquivos/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="arquivos/css/styles.css">
+
+        <title>Site de Natal</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="arquivos/img/jvsm.png" alt="" class="nav__logo-img"> 
+                </a>
+
+                <a href="#" class="nav__logo">
+                    Feliz Natal
+                    <img src="arquivos/img/logo.png" alt="" class="nav__logo-img"> 
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Boas-Vindas</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#celebrate" class="nav__link">Celebração</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#gift" class="nav__link">Gifts</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">Novidades</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+
+                    <img src="arquivos/img/nav-light.png" alt="" class="nav__img">
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    <!-- Toggle button -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="arquivos/img/home.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">Feliz natal e <br> Feliz Ano Novo!</h1>
+                        <p class="home__description">
+                            Natal e um novo ano está prestes a começar,
+                            todos os bons votos e sucessos.
+                        </p>
+                        <a href="index2.html" class="button">Iniciar</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== GIVING ====================-->
+            <section class="giving section container">
+                <h2 class="section__title">
+                    Comece a dar isso no <br> Natal
+                </h2>
+
+                <div class="giving__container grid">
+                    <div class="giving__content">
+                        <img src="arquivos/img/giving1.png" alt="" class="giving__img">
+                        <h3 class="giving__title">Presentes surpresa</h3>
+                        <p class="giving__description">Eles são os melhores presentes que existem.</p>
+                    </div>
+
+                    <div class="giving__content">
+                        <img src="arquivos/img/giving2.png" alt="" class="giving__img">
+                        <h3 class="giving__title">Enfeites</h3>
+                        <p class="giving__description">Dê um momento para decorar.</p>
+                    </div>
+
+                    <div class="giving__content">
+                        <img src="arquivos/img/giving3.png" alt="" class="giving__img">
+                        <h3 class="giving__title">Muito amor</h3>
+                        <p class="giving__description">Dê sentimentos que duram para sempre.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CELEBRATE ====================-->
+            <section class="celebrate section container" id="celebrate">
+                <div class="celebrate__container grid">
+                    <div class="celebrate__data">
+                        <h2 class="section__title celebrate__title">
+                            Comemore com um <br> Muito amor
+                        </h2>
+                        <p class="celebrate__description">
+                            Nestes feriados, comemore com muito amor e paz, oferecendo muitas
+                            bênçãos para nossos entes queridos, amigos e vizinhos, desejando-lhes
+                            uma boa mensagem de natal.
+                        </p>
+                        <a href="#" class="button">Envie bons votos</a>
+                    </div>
+
+                    <img src="arquivos/img/celebrate.png" alt="" class="celebrate__img">
+                </div>
+            </section>
+
+            <!--==================== GIFT ====================-->
+            <section class="gift section container" id="gift">
+                <h2 class="section__title">Compartilhe um presente</h2>
+
+                <div class="gift__container grid">
+                    <article class="gift__card">
+                        <img src="arquivos/img/gift1.png" alt="" class="gift__img">
+                        <i class='bx bx-heart gift__icon'></i>
+                        
+                        <h3 class="gift__price">R$1500</h3>
+                        <span class="gift__title">Pão de gengibre</span>
+                    </article>
+
+                    <article class="gift__card">
+                        <img src="arquivos/img/gift2.png" alt="" class="gift__img">
+                        <i class='bx bx-heart gift__icon'></i>
+                        
+                        <h3 class="gift__price">R$1500</h3>
+                        <span class="gift__title">Chapéu de Papai Noel</span>
+                    </article>
+
+                    <article class="gift__card">
+                        <img src="arquivos/img/gift3.png" alt="" class="gift__img">
+                        <i class='bx bx-heart gift__icon'></i>
+                        
+                        <h3 class="gift__price">R$1500</h3>
+                        <span class="gift__title">Árvore de Natal</span>
+                    </article>
+
+                    <article class="gift__card">
+                        <img src="arquivos/img/gift4.png" alt="" class="gift__img">
+                        <i class='bx bx-heart gift__icon'></i>
+                        
+                        <h3 class="gift__price">R$1500</h3>
+                        <span class="gift__title">Boneco de neve</span>
+                    </article>
+
+                    <article class="gift__card">
+                        <img src="arquivos/img/gift5.png" alt="" class="gift__img">
+                        <i class='bx bx-heart gift__icon'></i>
+                        
+                        <h3 class="gift__price">R$1500</h3>
+                        <span class="gift__title">Bengala de Natal</span>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== NEW ====================-->
+            <section class="new section container" id="new">
+                <h2 class="section__title">Novos Presentes</h2>
+
+                <div class="new__container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <img src="arquivos/img/new1.png" alt="" class="new__img">
+                                <h3 class="new__price">R$1500</h3>
+                                <span class="new__title">Rena</span>
+                                
+                                <button class="button new__button">
+                                    <i class='bx bx-heart new__icon'></i>
+                                </button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <img src="arquivos/img/new2.png" alt="" class="new__img">
+                                <h3 class="new__price">R$1500</h3>
+                                <span class="new__title">Globo de neve</span>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-heart new__icon'></i>
+                                </button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <img src="arquivos/img/new3.png" alt="" class="new__img">
+                                <h3 class="new__price">R$1500</h3>
+                                <span class="new__title">Trenó</span>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-heart new__icon'></i>
+                                </button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <img src="arquivos/img/new4.png" alt="" class="new__img">
+                                <h3 class="new__price">R$1500</h3>
+                                <span class="new__title">Coroa de Natal</span>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-heart new__icon'></i>
+                                </button>
+                            </article>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+           
+            <!--==================== MUSIC-PLAYER ====================-->
+           
+
+            <!--==================== MESSAGE ====================-->
+            <section class="message section container">
+                <div class="message__container grid">
+                    <form action="" class="message__form">
+                        <h2 class="message__title">Enviar bons <br> Desejos!</h2>
+                        <input type="email" placeholder="Escreva sua mensagem" class="message__input">
+                        <button class="button message__button">Enviar Mensagem</button>
+                    </form>
+
+                    <img src="arquivos/img/message.png" alt="" class="message__img">
+                </div>
+            </section>
+            
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="nav__logo">
+                        <img src="arquivos/img/jvsm.png" alt="" class="nav__logo-img2"> 
+                    </a>
+    
+                    <a href="#" class="nav__logo">
+                        Feliz Natal
+                        <img src="arquivos/img/logo.png" alt="" class="nav__logo-img"> 
+                            
+                    </a>
+
+                    <p class="footer__description">
+                        Este natal será de <br> muito amor
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Nossos serviços</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Preços</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Descontos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Modo de entrega</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Apoio e suporte</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Centro de Apoio</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Entre em contato conosco</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Redes Sociais</h3>
+
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/jvsm_script/" target="_blank" class="home__social-icon footer__social footer__link">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+    
+                        <a href="https://www.instagram.com/jvsm_script/" target="_blank" class="home__social-icon footer__social footer__link">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+    
+                        <a href="https://www.instagram.com/jvsm_script/" target="_blank" class="home__social-icon footer__social footer__link">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <img src="arquivos/img/footer1.png" alt="" class="footer__img1">
+                <img src="arquivos/img/footer2.png" alt="" class="footer__img2">
+            </div>
+
+            <span class="footer__copy">&#169; JvsmScript. Todos os direitos reservados</span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="arquivos/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="arquivos/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="arquivos/js/main.js"></script>
+    </body>
+</html>
